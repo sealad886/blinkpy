@@ -20,8 +20,12 @@ ONLINE = {"online": True, "offline": False}
 """
 OTHER
 """
-APP_BUILD = "ANDROID_28373244"
-DEFAULT_USER_AGENT = "27.0ANDROID_28373244"
+# Updated to match Blink Android app version 47.0 (August 2025)
+# The version code follows the pattern ANDROID_<version_code>
+# Version 47.0 uses versionCode 192, which likely corresponds to a build number
+# in the 30000000+ range based on historical patterns
+APP_BUILD = "ANDROID_30000192"
+DEFAULT_USER_AGENT = "47.0ANDROID_30000192"
 DEVICE_ID = "Blinkpy"
 TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S%z"
 DEFAULT_MOTION_INTERVAL = 1
