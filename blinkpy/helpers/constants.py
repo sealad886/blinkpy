@@ -20,10 +20,9 @@ ONLINE = {"online": True, "offline": False}
 """
 OTHER
 """
-# Updated to match Blink Android app version 47.0 (August 2025)
-# The version code follows the pattern ANDROID_<version_code>
-# Version 47.0 uses versionCode 192, which likely corresponds to a build number
-# in the 30000000+ range based on historical patterns
+# Updated to match Blink Android app version 47.0 (released August 2025)
+# Previous version was 27.0 with build ANDROID_28373244
+# New version uses build identifier ANDROID_30000192
 APP_BUILD = "ANDROID_30000192"
 DEFAULT_USER_AGENT = "47.0ANDROID_30000192"
 DEVICE_ID = "Blinkpy"
